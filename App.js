@@ -1,13 +1,10 @@
-import React, { Component } from 'react'
-import {View,Text} from 'react-native'
+import React, {Component} from 'react';
+import {View, Text} from 'react-native';
+import Nav from './nav/navigation';
 export class App extends Component {
   render() {
-    return (
-      <View>
-        <Text>hello</Text>
-      </View>
-    )
+    return <Nav />;
   }
 }
 
-export default App
+export default App;
